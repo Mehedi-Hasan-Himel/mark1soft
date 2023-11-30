@@ -3,7 +3,7 @@ import React from "react";
 function ContactForm() {
   return (
     <form
-      action="https://formsubmit.co/freelancerrtushar@gmail.com"
+      action="https://formsubmit.co/mehedihasanhimel89@gmail.com"
       enctype="multipart/form-data"
       method="POST"
       className="mx-5"
