@@ -46,9 +46,9 @@ function AboutUs() {
     },
     {
       id: 7,
-      name: "Rajibur Rahman",
-      image: "https://i.postimg.cc/x10RvNyP/mern2.png",
-      position: "Full Stack Developer (MERN)",
+      name: "Imtiaz Zahir",
+      image: "https://i.postimg.cc/KvCFvzt2/imtiaz.jpg",
+      position: "Web Developer (MERN)",
     },
     {
       id: 8,
@@ -110,6 +110,12 @@ function AboutUs() {
       name: "Moruzzaman Monir",
       image: "https://i.postimg.cc/tgy0jhfP/monir.jpg",
       position: "Senior Wordpress Developer",
+    },
+    {
+      id: 18,
+      name: "Rajibur Rahman",
+      image: "https://i.postimg.cc/x10RvNyP/mern2.png",
+      position: "Full Stack Developer (MERN)",
     },
   ];
   return (

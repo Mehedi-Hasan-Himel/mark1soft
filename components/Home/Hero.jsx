@@ -29,6 +29,18 @@ const data = [
     image: "https://i.postimg.cc/SQLHgK2Q/rsz-wordpress.jpg",
     position: "Wordpress Developer",
   },
+  {
+    id: 5,
+    name: "Mehedi Hasan Himel",
+    image: "https://i.postimg.cc/mrj7GKJ0/rsz-mern.jpg",
+    position: "Web Developer (MERN)",
+  },
+  {
+    id: 6,
+    name: "Imtiaz Zahir",
+    image: "https://i.postimg.cc/QtM1N0rV/rsz-imtiaz.jpg",
+    position: "Web Developer (MERN)",
+  },
 ];
 
 function Hero() {
