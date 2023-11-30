@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import PortfolioProjectCard from "@/components/Portfolio/PortfolioProjectCard";
 import { useEffect } from "react";
 
-function page() {
+function Page() {
   useEffect(() => {
     Aos.init({
       easing: "ease-out-cubic",
@@ -24,4 +24,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

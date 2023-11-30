@@ -160,7 +160,7 @@ const portfolioData = [
   },
 ];
 
-function page({ params }) {
+function Page({ params }) {
   const project = portfolioData.find((p) => p.id == params.id);
   useEffect(() => {
     Aos.init({
@@ -183,4 +183,4 @@ function page({ params }) {
   );
 }
 
-export default page;
+export default Page;

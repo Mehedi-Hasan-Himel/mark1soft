@@ -14,8 +14,8 @@ function Features({ project }) {
             </span>
           </div>
           <div className="grid grid-cols-12">
-            {project.Features.map((feature) => (
-              <div className="flex items-center py-5 col-span-12 md:col-span-6 lg:col-span-3">
+            {project.Features.map((feature,index) => (
+              <div key={index} className="flex items-center py-5 col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="w-10 ">
                   <FontAwesomeIcon
                     icon={faSquareCheck}
