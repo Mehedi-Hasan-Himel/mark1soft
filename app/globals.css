@@ -2,26 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.custom-gradient {
+  background-image: radial-gradient(at 55% 98%, #fffcf0 0, transparent 50%),
+    radial-gradient(at 91% 98%, #fffcf0 0, transparent 50%),
+    radial-gradient(at 55% 0, #dbffee 0, transparent 50%),
+    radial-gradient(at 55% 38%, #f1f1e5 0, transparent 50%),
+    radial-gradient(at 100% 48%, #fee1e8 0, transparent 50%),
+    radial-gradient(at 0 50%, #f8ffc7 0, transparent 50%),
+    radial-gradient(at 67% 69%, #8438ff 0, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.nextjs-toast-errors-parent {
+  display: none!important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-button{
+ 
+        display: none;
+     
+}
+
+
+@media only screen and (max-width: 990px) {
+.navbar-button {
+
+    background-color: gray;
+    margin-right: 30px;
+    width: 40px;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
