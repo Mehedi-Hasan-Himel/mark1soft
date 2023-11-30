@@ -162,8 +162,8 @@ function PortfolioProjectCard() {
           <div className="text-center" style={{paddingTop:"80px"}}>
             <h1 className="text-[56px] font-semibold">Portfolio</h1>
             <p className="text-lg">
-              From concept to completion, we're with you every step of the way -
-              guiding you towards a successful outcome. Let's make magic happen!
+              From concept to completion, we&apos;re with you every step of the way -
+              guiding you towards a successful outcome. Let&apos;s make magic happen!
               Or at least a really cool project
             </p>
           </div>
@@ -204,7 +204,7 @@ function PortfolioProjectCard() {
                     opinions, creating a space for constructive dialogue and
                     mutual support. Our mission is to bring people together by
                     giving them a platform to express themselves, exchange
-                    ideas, and amplify each other's voices.
+                    ideas, and amplify each other&apos;s voices.
                   </p>
                   <Link href={`/project/${project.id}`}>
                     <button className="bg-primary flex justify-between text-white p-3 text-center w-full  rounded-xl lg:w-auto">

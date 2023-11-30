@@ -16,6 +16,7 @@ function Footer() {
       <div className=" overflow-x-auto">
         <div className="table-responsive overflow-scroll md:overflow-hidden">
           <table className="table border-collapse  border-gray-200 w-full ">
+            <tbody>
             <tr className="border">
               <td className=" border ">
                 <div className="flex items-center justify-center py-3 mx-5">
@@ -89,6 +90,7 @@ function Footer() {
                 </div>
               </td>
             </tr>
+            </tbody>
           </table>
         </div>
       </div>

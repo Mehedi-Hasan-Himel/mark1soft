@@ -1,7 +1,7 @@
 "use client";
 import animationData from "../../public/data";
 import arrowAnimationData from "../../public/arrow";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import { useEffect, useState } from "react";
 
 const data = [
@@ -113,10 +113,10 @@ function Hero() {
               className={` bg-left lg:bg- bg-blue-300 bg-cover bg-no-repeat rounded-full  transition-all duration-250 ease-in w-[290px] lg:w-[300px] h-[450px] lg:h-[650px] relative z-auto`}
             >
               <div className="absolute hidden lg:flex rotate-[-40deg] left-[230px] ">
-                <Lottie options={arrowOptions} height={100} width={200} />
+                {/* <Lottie options={arrowOptions} height={100} width={200} /> */}
               </div>
               <div className="absolute top-[270px] lg:top-[370px] -left-[50px]">
-                <Lottie options={defaultOptions} height={215} width={150} />
+                {/* <Lottie options={defaultOptions} height={215} width={150} /> */}
               </div>
             </div>
             <div className="flex flex-col text-center justify-center w-full">
